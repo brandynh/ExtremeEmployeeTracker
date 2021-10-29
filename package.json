@@ -1,0 +1,26 @@
+{
+  "name": "ExtremeEmployeeTracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandynh/ExtremeEmployeeTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandynh/ExtremeEmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/brandynh/ExtremeEmployeeTracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.2"
+  }
+}
