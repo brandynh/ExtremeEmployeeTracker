@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS employeeList_db;
-CREATE DATABASE employeeList_db;
-USE employeeList_db;
+DROP DATABASE IF EXISTS companyInfo_db;
+CREATE DATABASE companyInfo_db;
+USE companyInfo_db;
 
 DROP TABLE IF EXISTS departments;
 CREATE TABLE departments(

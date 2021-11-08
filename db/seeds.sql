@@ -11,12 +11,12 @@ VALUES  (2, "Salesperson", 40000),
         (4, "Lawyer", 60000),
         (3, "Accountant", 35000);
 
-INSERT INTO employees (role_id, first_name, last_name)
-VALUES  (1, "Mike", "Chan"),
-        (2, "Kevin", "Tupik"),  
-        (3, "Ashley", "Rodriguez"),
-        (4, "Tom", "Allen"),
-        (5, "Malia", "Brown");
+INSERT INTO employees (role_id, manager_id, first_name, last_name)
+VALUES  (1, null ,"Mike", "Chan"),
+        (2, 1 ,"Kevin", "Tupik"),  
+        (3, null ,"Ashley", "Rodriguez"),
+        (4, null ,"Tom", "Allen"),
+        (5, 2 ,"Malia", "Brown");
 
 
 
