@@ -26,6 +26,8 @@ Manage company employment database with ease.
     
 ## Usage
 This backend program allows the user to View, Add and, Update employment information within a compnay database
+
+![Screenshot](demo/ExtremeEmployeeDemo.gif)
     
 ## Test-Instructions
 - Step 1: Make sure you have sourced the sequal schema and seeds
@@ -46,7 +48,6 @@ Brandyn Huffer
 * [MDN(Switch Statments)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 * [Sql(Query Help)](https://www.tutorialspoint.com/mysql/index.htm)
 * [Template Literls](https://www.w3schools.com/js/js_string_templates.asp)
-* 
 
 ## DEMO
 

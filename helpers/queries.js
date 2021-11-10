@@ -120,7 +120,7 @@ function addRole() {
 
         let query = 'INSERT INTO roles(title, salary, department_id) VALUES (?,?,?)';
         db.query(query, [answers.roleTitle, answers.salary, answers.departmentId], (err, results) => {
-            (err) ? console.log(err) : console.log(`\n Success! \n\n New role ${answers.roletitle} with salaray of ${answers.salary} and depart ID of ${answers.departmentId} added.\n`)
+            (err) ? console.log(err) : console.log(`\n Success! \n\n New role ${answers.roleTitle} with salaray of ${answers.salary} and depart ID of ${answers.departmentId} added.\n`)
             questionPrompt();
         });
     }).catch((err) => {
